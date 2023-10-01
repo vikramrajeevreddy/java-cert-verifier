@@ -27,9 +27,9 @@
         <spring.cloud.function.dependencies>4.0.0</spring.cloud.function.dependencies>
 
         <!-- customize those five properties. The functionAppName should be unique across Azure -->
-        <functionResourceGroup>my-spring-function-resource-group</functionResourceGroup>
+        <functionResourceGroup>my-spring-function-verifier-resource-group</functionResourceGroup>
         <functionAppServicePlanName>my-spring-function-service-plan</functionAppServicePlanName>
-        <functionAppName>my-spring-function</functionAppName>
+        <functionAppName>cert-verifier</functionAppName>
         <functionAppRegion>westeurope</functionAppRegion>
         <functionPricingTier>Y1</functionPricingTier>
 
